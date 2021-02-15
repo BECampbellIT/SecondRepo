@@ -53,6 +53,7 @@ namespace ShopFloorLib
 
         public static string Decrypt(string cipherText)
         {
+			//test comment2 for GitHub Repos
             try
             {
                 byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
