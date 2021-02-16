@@ -20,7 +20,6 @@ namespace ShopFloorLib
         private static int passwordIterations = 2;
         private static string initVector = "@1B2c3D4d5F7q7H8";
         private static int keySize = 256;
-		//test comment for GitHub Repository
 
         public static string Encrypt(string plainText)
         {
@@ -53,7 +52,6 @@ namespace ShopFloorLib
 
         public static string Decrypt(string cipherText)
         {
-			//test comment2 for GitHub Repos
             try
             {
                 byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);

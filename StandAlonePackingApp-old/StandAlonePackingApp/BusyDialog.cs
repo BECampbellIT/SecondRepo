@@ -12,7 +12,7 @@ namespace StandAlonePackingApp
 
         private Operation myOpr;
         delegate void UpdateCallback(string t);
-        //test comment 
+
         public BusyDialog(Operation opr)
         {
             InitializeComponent();
