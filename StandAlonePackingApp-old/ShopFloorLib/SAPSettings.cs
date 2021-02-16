@@ -15,5 +15,6 @@ namespace ShopFloorLib
         public string user { get; set; }
         public string password { get; set; }
         public string device { get; set; }
+		//test comment 2 for git hub
     }
 }
