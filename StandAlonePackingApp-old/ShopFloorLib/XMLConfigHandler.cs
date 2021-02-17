@@ -14,6 +14,7 @@ namespace ShopFloorLib
             // Just some boiler plate deserialisation code...
             var settings = Activator.CreateInstance(type);
             System.IO.FileStream fs = null;
+			//test comment to test github commits
 
             try
             {
@@ -57,6 +58,7 @@ namespace ShopFloorLib
 
         static public bool SaveConfig(object settings)
         {
+			//test comment to test github commits 2
             // Just some boiler plate serialisation code...
             try
             {
